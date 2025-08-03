@@ -1,0 +1,86 @@
+.message-section {
+  background-color: #00e6f6;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.message-text h2 {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+
+.message-button button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.message-button button:hover {
+  background-color: #333;
+}
+.footer {
+  background-color: #050b2c;
+  color: white;
+  padding: 60px 40px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1 1 220px;
+  margin: 20px 10px;
+}
+
+.footer-column h3 {
+  color: #00e3f0;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-column p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 8px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00e3f0;
+}
+
+.social-icons i {
+  color: white;
+  font-size: 18px;
+  margin-right: 10px;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #00e3f0;
+}
+

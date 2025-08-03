@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1,
+    "papername": "Hindustan Times",
+    "img": "https://epaper.hindustantimes.com//images/ht_bottom.png",
+    "DistributionArea": [
+      "Pune University",
+      "Baner Pashan Link Road",
+      "Ganesh Khind Road",
+      "NCL Colony, Pashan",
+      "Abhimanshree Society",
+      "Sus Road Pashan",
+      "Aundh Baner Link Road",
+      "Balaji Chowk, Pashan"
+    ],
+    "charges":[
+      {
+        "day": "Monday",
+        "charge": 3 
+      },
+      {
+        "day": "Tuesday",
+        "charge": 5
+      },
+      {
+        "day": "Wednesday",
+        "charge": 6
+      },
+      {
+        "day": "Thursday",
+        "charge": 6
+      },
+      {
+        "day": "Friday",
+        "charge": 5
+      },
+      {
+        "day": "Saturday",
+        "charge": 5
+      },
+      {
+        "day": "Sunday",
+        "charge": 5
+      }] 
+  },
+  {
+    "id": 2,
+    "papername": "Eoconomic Times",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnVxwoqmQMwetEjPg2G0qeUipVGed9jrAJ1w&s",
+      "DistributionArea": [
+      "Pune University",
+      "Baner Pashan Link Road",
+      "Ganesh Khind Road",
+      "NCL Colony, Pashan",
+      "Abhimanshree Society",
+      "Sus Road Pashan",
+      "Aundh Baner Link Road",
+      "Balaji Chowk, Pashan"
+    ],
+    "charges":[
+      {
+        "day": "Monday",
+        "charge": 4
+      },
+      {
+        "day": "Tuesday",
+        "charge": 5
+      },
+      {
+        "day": "Wednesday",
+        "charge": 6
+      },
+      {
+        "day": "Thursday",
+        "charge": 6
+      },
+      {
+        "day": "Friday",
+        "charge": 5
+      },
+      {
+        "day": "Saturday",
+        "charge": 5
+      },
+      {
+        "day": "Sunday",
+        "charge": 5
+      }] 
+  },
+  {
+    "id": 3,
+    "papername": "Times Of India",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkLGXdeEcKLzTGt90wlxOXWv59p0S6vYyoNQ&s",
+      "DistributionArea": [
+      "Pune University",
+      "Baner Pashan Link Road",
+      "Ganesh Khind Road",
+      "NCL Colony, Pashan",
+      "Abhimanshree Society",
+      "Sus Road Pashan",
+      "Aundh Baner Link Road",
+      "Balaji Chowk, Pashan"
+    ],
+    "charges":[
+      {
+        "day": "Monday",
+        "charge": 7
+      },
+      {
+        "day": "Tuesday",
+        "charge": 5
+      },
+      {
+        "day": "Wednesday",
+        "charge": 6
+      },
+      {
+        "day": "Thursday",
+        "charge": 6
+      },
+      {
+        "day": "Friday",
+        "charge": 5
+      },
+      {
+        "day": "Saturday",
+        "charge": 5
+      },
+      {
+        "day": "Sunday",
+        "charge": 5
+      }
+    ] 
+  },
+  {
+    "id": 3,
+    "papername": "The Hindu",
+    "img": "https://upsc.ind.in/wp-content/uploads/2023/08/HINDUSTAN-TIMES-3.png",
+      "DistributionArea": [
+      "Pune University",
+      "Baner Pashan Link Road",
+      "Ganesh Khind Road",
+      "NCL Colony, Pashan",
+      "Abhimanshree Society",
+      "Sus Road Pashan",
+      "Aundh Baner Link Road",
+      "Balaji Chowk, Pashan"
+    ],
+    "charges":[
+      {
+        "day": "Monday",
+        "charge": 7
+      },
+      {
+        "day": "Tuesday",
+        "charge": 5
+      },
+      {
+        "day": "Wednesday",
+        "charge": 6
+      },
+      {
+        "day": "Thursday",
+        "charge": 6
+      },
+      {
+        "day": "Friday",
+        "charge": 5
+      },
+      {
+        "day": "Saturday",
+        "charge": 5
+      },
+      {
+        "day": "Sunday",
+        "charge": 5
+      }
+    ] 
+  }
+]

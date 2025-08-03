@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+    background-color: #f9f9f9;
+}
+
+/* Hero Section */
+.about-hero {
+    background-color: #0b1120;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.about-hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.about-hero p {
+    font-size: 20px;
+}
+
+/* Main Content */
+.about-main {
+    padding: 60px 20px;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-text h2 {
+    font-size: 30px;
+    margin-top: 30px;
+    color: #0a0a23;
+}
+
+.about-text p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+
+.about-text ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.about-text ul li {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+/* Image Section */
+.about-image {
+    flex: 1;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #050b2c;
+    color: #ccc;
+    padding: 20px 10px;
+    margin-top: 60px;
+}
