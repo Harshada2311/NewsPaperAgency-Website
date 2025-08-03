@@ -1,13 +1,17 @@
 .navbar {
   background-color: #0b1120;
   color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 18px 40px;
   position: sticky;
   top: 0;
   z-index: 1000;
+  flex-wrap: wrap;
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-logo {
@@ -52,4 +56,44 @@
 
 .navbar-btn:hover {
   background-color: #00cdd6;
+}
+
+/* Mobile Menu Button */
+.navbar-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    display: none;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-links a,
+  .navbar-btn {
+    width: 100%;
+    text-align: left;
+  }
 }
