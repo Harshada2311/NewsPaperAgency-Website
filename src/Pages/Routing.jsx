@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 import Dashboard from '../Pages/Dashboard'
 import About from '../components/About';
 import Services from '../components/Services';
-import Pricing from '../components/Pricing';
+// import Pricing from '../components/Pricing';
 import Contact from '../components/Contact';
 import Papers from '../Pages/Papers.jsx';
 import PaperDetails from './PaperDetails.jsx';
@@ -21,7 +21,7 @@ function Routing() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/About" element={<About />} />
             <Route path="/Services" element={<Services />} />
-            <Route path="/Pricing" element={<Pricing />} />
+            {/* <Route path="/Pricing" element={<Pricing />} /> */}
             <Route path="/Papers" element={<Papers />} />
             <Route path="/Papers/:id" element={<PaperDetails />} />
             <Route path="/Contact" element={<Contact />} />
